@@ -17,7 +17,6 @@ Single Cycle RISC-V/
 │   ├── regfile.sv             # Register file
 │   ├── imem.hex               # Instruction memory initialization file
 │   └── dmem.hex               # Data memory initialization file
-└── tb_rv32i_top.sv            # Testbench
 ```
 
 ## Key Features
@@ -133,4 +132,5 @@ the Free Software Foundation, version 3.
 - Cache system addition
 - Support for more RISC-V extensions (M, C, etc.)
 - Advanced debug interface implementation
+
 
