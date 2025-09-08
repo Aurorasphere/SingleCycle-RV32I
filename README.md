@@ -80,20 +80,6 @@ Single Cycle RISC-V/
 - Signed/unsigned comparison support
 - 6 types of comparison result outputs
 
-## Simulation and Testing
-
-### Testbench (`tb_rv32i_top.sv`)
-- 100MHz clock generation
-- Reset sequence control
-- Basic monitoring functionality
-- Simulation termination conditions
-
-### How to Run
-1. Open project in Vivado
-2. Add `tb_rv32i_top.sv` to simulation sources
-3. Run simulation
-4. Verify operation through waveform analysis
-
 ## Memory Initialization
 
 ### Instruction Memory (`imem.hex`)
@@ -147,3 +133,4 @@ the Free Software Foundation, version 3.
 - Cache system addition
 - Support for more RISC-V extensions (M, C, etc.)
 - Advanced debug interface implementation
+
